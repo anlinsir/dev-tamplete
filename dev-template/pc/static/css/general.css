@@ -1,0 +1,55 @@
+header,
+footer,
+nav,
+main {
+  width: 100%;
+}
+header .chunk,
+footer .chunk,
+nav .chunk,
+main .chunk {
+  width: 1200px;
+  margin: auto;
+}
+
+/* header */
+header{
+    background-color: #ea9144;
+    min-width: 1200px;
+    min-height: 80px;
+}
+header .header-chunk {
+  position: relative;
+  height: 200px;
+}
+/* header End */
+nav {
+  width: 100%;
+  min-width: 1200px;
+  position: absolute;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+.fixed-nav {
+    position: fixed;
+}
+
+.chunk1 {
+  height: 500px;
+  border: 1px solid;
+}
+.chunk2 {
+  height: 300px;
+  border: 1px solid red;
+}
+.chunk3 {
+  height: 600px;
+  border: 1px solid aquamarine;
+}
+
+.chunk4 {
+  height: 1300px;
+  border: 1px solid violet;
+}

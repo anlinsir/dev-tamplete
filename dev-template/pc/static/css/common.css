@@ -1,0 +1,18 @@
+html,
+body,
+div,
+section,
+header,
+footer,
+nav,
+ul,
+ol,
+li,
+a,
+p,
+strong,
+span {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
